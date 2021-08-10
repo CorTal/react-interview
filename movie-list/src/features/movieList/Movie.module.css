@@ -1,0 +1,90 @@
+.movieCard {
+  width : 400px;
+  height : 200px;
+  background-color: white;
+  display : flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border : 1px solid #cacaca;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom : 10px;
+}
+
+.headerCard {
+  background-color: rgba(20,20,20);
+  color : white;
+  padding : 5px;
+  font-size : 20px;
+  font-weight : 700;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.likesCard {
+  display : flex;
+  justify-content: space-between;
+  padding : 5px
+}
+
+.contentCard {
+  padding : 10px
+}
+
+.dislikeBar {
+  height: 10px;
+  width : 100%;
+  background-color: rgb(148, 148, 148);
+
+}
+
+.likeBar {
+  height:10px;
+  background-color: rgb(226, 226, 226);
+  transition: width 0.5s;
+}
+
+.thumbUpCard{
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.thumbDownCard{
+  margin-left : 5px;
+  cursor: pointer;
+}
+
+.likeValues{
+  display : flex;
+  align-items: center;
+  align-content: center;
+}
+
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(187, 31, 31);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(187, 31, 31, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+  height : 25px;
+  width : 100px;
+  margin : auto;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(187, 31, 31, 0.4);
+}
+
+.button:active {
+  background-color: rgba(187, 31, 31, 0.2);
+}
